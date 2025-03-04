@@ -70,7 +70,7 @@ NHD_path = '/proj/characklab/projects/kieranf/flood_damage_index/data/NHDPlusMRD
 ENHD_path = '/proj/characklab/projects/kieranf/flood_damage_index/data/ENHDPlusV2/enhd_nhdplusatts.parquet'
 
 # Specify path to 2-digit HUC region shapefile
-huc_regions_path = '/proj/characklab/projects/kieranf/flood_damage_index/data/watersheds/CONUS_WBD_HU2'
+huc_regions_path = os.path.join(pwd,'CONUS_WBD_HU2')
 
 # Specify path to dataset of stream gage station points that includes latitude/longitude
 station_path = os.path.join(pwd,'site_info.csv')
