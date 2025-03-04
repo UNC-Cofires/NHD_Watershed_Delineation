@@ -26,7 +26,7 @@ downloaded on Longleaf:
 - NHDPlusV2 medium-resolution dataset 
 ([link](https://www.epa.gov/waterdata/nhdplus-national-data)) 
 - Enhanced NHDPlus V2 flow network dataset 
-([link](ttps://doi.org/10.5066/P13IRYTB)) 
+([link](https://doi.org/10.5066/P13IRYTB)) 
 - A shapefile describing the boundaries of each 2-digit hydrologic 
 unit code (HUC) region in the CONUS. This repository contains a shapefile named `CONUS_WBD_HU2` that will 
 serve this purpose, but you can also create your own file using the U.S. Geological Survey (USGS) Watershed 
