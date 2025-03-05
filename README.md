@@ -32,6 +32,7 @@ unit code (HUC) region in the CONUS. This repository contains a shapefile named 
 serve this purpose, but you can also create your own file using the U.S. Geological Survey (USGS) Watershed 
 Boundary Dataset 
 ([link](https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/WBD/HU2/GDB/)).
+
 Note that you will need to explicitly specify the paths to these files in the `delineate_watersheds.py` file.
 ### User-supplied points
 In addition to the data sources listed above, the script also takes as input a CSV file containing the 
