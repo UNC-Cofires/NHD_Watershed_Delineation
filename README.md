@@ -39,8 +39,8 @@ In addition to the data sources listed above, the script also takes as input a C
 spatial coordinates (i.e., latitude/longitude) of points on a river network for which you would like to 
 delineate the areas that contribute flow (i.e., the upstream watershed). This file should be structured in a 
 similar manner to the `site_info.csv` file, which contains the coordinates of ten USGS stream gages in 
-California as an example. The only columns that are required to be in this file are `dec_lat_va` and 
-`dec_long_va` which (respectively) correspond to the latitude and longitude of stream gage locations.
+California as an example. The only columns that are required to be in this file are `site_no`, `dec_lat_va`, and 
+`dec_long_va` which (respectively) correspond to the stream gage ID, latitude, and longitude.
 ### Job submission
 If you are applying this script to a large number of points, it is recommended to submit a batch job that 
 will run it on a compute node. An example job submission script is included in the `delineate_watersheds.sh` 
